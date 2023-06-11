@@ -54,6 +54,15 @@
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>libs/</classpathPrefix>
+                            <mainClass>
+                                org.example.Main
+                            </mainClass>
+                        </manifest>
+                    </archive>
                 </configuration>
 
                 <executions>
